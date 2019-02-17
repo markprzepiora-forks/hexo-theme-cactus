@@ -39,7 +39,7 @@ tag_cloud:
   zero: 目前還沒有標籤
 
 pagination:
-  page: %d / %d
+  page: '%d / %d'
 
 counter:
   tag_cloud:
