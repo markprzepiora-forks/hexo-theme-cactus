@@ -42,6 +42,8 @@ body
 
   p
     hyphens(auto)
+    margin-block-start: 12px
+    margin-block-end: 12px
 
   code
     hyphens(manual)
@@ -131,7 +133,8 @@ pre
   border-radius: 4px
   font-size: 13px
   font-family: $font-family-mono
-  line-height: 22px
+  font-weight: 500
+  line-height: 20px
   -webkit-border-radius: 4px
 
   code
@@ -150,7 +153,7 @@ code
   margin: 1rem 0
   padding: 10px 15px
   border-radius: 4px
-  background: $color-background-code
+  // background: $color-background-code
   font-family: $font-family-mono
   // color: $color-accent-3
   -webkit-border-radius: 4px
@@ -179,12 +182,17 @@ code
       clear: both
 
   pre
-    padding: 0
+    font-size: 120%
+    padding: 2px
+    margin: 8px
     border: none
     background: none
 
   table
     width: auto
+
+  td.code
+    padding: 0 8px;
 
   td.gutter
     text-align: right
